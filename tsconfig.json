@@ -1,0 +1,18 @@
+{
+  "compilerOptions": {
+    "target": "esnext",
+    "module": "commonjs",
+    "moduleResolution": "NodeNext",
+    "sourceMap": true,
+    "lib": ["es6"],
+    "allowJs": true,
+    "outDir": "./dist",
+    "rootDir": "./",
+    "strict": true,
+    "esModuleInterop": true,
+    "skipLibCheck": true,
+    "noPropertyAccessFromIndexSignature": true //Show erro when accessing process.env
+  },
+  "include": ["src/**/*", "app.ts", "*.d.ts"],
+  "exclude": ["src/**/*.spec.ts"]
+}
