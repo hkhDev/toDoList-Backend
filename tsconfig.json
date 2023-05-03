@@ -10,8 +10,7 @@
     "rootDir": "./",
     "strict": true,
     "esModuleInterop": true,
-    "skipLibCheck": true,
-    "noPropertyAccessFromIndexSignature": true //Show erro when accessing process.env
+    "skipLibCheck": true
   },
   "include": ["src/**/*", "app.ts", "*.d.ts"],
   "exclude": ["src/**/*.spec.ts"]

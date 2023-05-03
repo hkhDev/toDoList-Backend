@@ -4,15 +4,15 @@ import dotenv from "dotenv";
 dotenv.config();
 
 const db = mysql.createConnection({
-  host: process.env["host"],
-  user: process.env["user"],
-  password: process.env["password"],
-  database: process.env["database"],
+  host: process.env.host,
+  user: process.env.user,
+  password: process.env.password,
+  database: process.env.database,
 });
 
 const app = express();
 
-const port = 4000 || process.env["PORT"];
+const port = 4000 || process.env.PORT;
 
 app.use(express.json());
 
